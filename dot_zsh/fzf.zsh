@@ -201,7 +201,7 @@ __fzf-aweken() {
 zle -N __fzf-aweken
 
 bindkey '^R' __fzf-history
-bindkey '^ ' __fzf-aweken
+bindkey '^F' __fzf-aweken
 
 export ENHANCD_FILTER=$__FZF_CMD
 
